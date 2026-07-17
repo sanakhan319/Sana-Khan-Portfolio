@@ -193,7 +193,7 @@ export const projects: Project[] = [
 
   GitHub: 'https://github.com/sana/green-garden',
 
-  liveDemo: 'https://green-garden.vercel.app',
+  liveDemo: 'https://sanakhan319.github.io/Green-Garden-Website/',
 },
   {
     id: 2,
@@ -242,53 +242,51 @@ export const projects: Project[] = [
     
    
     GitHub: 'https://GitHub.com/sana/counter-app',
-    liveDemo: 'https://counter-demo.vercel.app',
+    liveDemo: 'https://sanakhan319.github.io/Real-Time-Chat-App-Frontend-Only-/',
   },
   {
     id: 4,
-    title: 'Portfolio Landing Page',
+    title: 'Drag and Drop File Uploader',
     description:
-      'Modern and responsive portfolio landing page with smooth animations, glassmorphism effects, and dark theme.',
+      'Interactive file and folder uploader featuring drag-and-drop zones, real-time upload progress, and file validation.',
     longDescription:
-      'A beautifully crafted portfolio landing page featuring smooth scroll animations, glassmorphism design elements, responsive layout, and a premium dark theme. Built with React and Tailwind CSS with Framer Motion animations.',
-    technologies: ['React.js', 'Tailwind CSS', 'Framer Motion', 'React Router'],
+      'A modern drag-and-drop file uploader component built for seamless user experience. It supports dragging both single files and entire folders, validates file sizes and types in real-time, displays beautiful progress bars, and provides file type icons with a quick preview option.',
+    technologies: ['React.js', 'Tailwind CSS', 'TypeScript'],
     features: [
-      'Smooth Scroll Animations',
-      'Glassmorphism Effects',
-      'Dark Theme Design',
-      'Responsive Layout',
-      'SEO Optimized',
-      'Fast Performance',
+      'Drag & Drop File/Folder Zones',
+      'Real-time Upload Progress Bars',
+      'File Type & Size Validation',
+      'File Preview & Removal Option',
+      'Accessible & Fully Responsive',
+      'Custom Error Handling',
     ],
-   
-    image: '/images/Portfolio.png',
+    image: '/images/drag and drop.avif',
     
     GitHub: 'https://GitHub.com/sana/portfolio',
-    liveDemo: 'https://sana-portfolio.vercel.app',
+    liveDemo: 'https://sanakhan319.github.io/Drag-and-Drop-File-Folder/',
   },
   
   {
     id: 6,
-    title: 'Task Management App',
+   title: 'Multi-Step Form with Progress Indicator',
     description:
-      'Collaborative task management application with real-time updates, drag-and-drop, and team features.',
+      'Interactive multi-step form featuring a dynamic progress indicator, form validation, and data persistence.',
     longDescription:
-      'A full-stack task management application inspired by Trello. Features include drag-and-drop task boards, real-time updates with Socket.io, team collaboration, task assignments, deadline tracking, and activity logging.',
-    technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
+      'A sleek and user-friendly multi-step form built to handle complex data collection in a clean layout. It includes a dynamic progress indicator, real-time client-side validation for each step, and local storage persistence so users do not lose their data on refresh.',
+    technologies: ['React.js', 'Tailwind CSS', 'TypeScript'],
     features: [
-      'Drag & Drop Boards',
-      'Real-time Updates',
-      'Team Collaboration',
-      'Task Assignment',
-      'Deadline Tracking',
-      'Activity Logging',
+      'Dynamic Progress Indicator',
+      'Step-by-Step Validation',
+      'Data Persistence (Local Storage)',
+      'Responsive Design',
+      'Smooth Step Transitions',
+      'Summary Review Before Submit',
     ],
-
-    image: '/images/Task Manager.png',
+    image: '/images/Multi-Step Form with Progress Indicator.jpeg',
    
   
     GitHub: 'https://GitHub.com/sana/task-manager',
-    liveDemo: 'https://taskmanager-demo.vercel.app',
+    liveDemo: 'https://sanakhan319.github.io/Multi-Step-Form-with-Progress-Indicator/',
   },
   
   
