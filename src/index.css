@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@theme {
+  /* --- Bolt Custom Theme Colors --- */
+  --color-dark-200: #e2e8f0;
+  --color-dark-700: #1e293b;
+  --color-dark-800: #0f172a;
+  --color-dark-900: #0f172a;
+  --color-dark-950: #030712;
+
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+
+  --color-accent-400: #f472b6;
+  --color-accent-500: #ec4899;
+  --color-accent-600: #db2777;
+}
+
+/* --- Base & Scrollbar Styles --- */
+@utility scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #2563eb #1e293b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-dark-950);
+  color: var(--color-dark-200);
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgba(59, 130, 246, 0.3);
+  color: #ffffff;
+}
+
+/* Global scrollbar style for engines like Webkit */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #2563eb;
+  border-radius: 3px;
+}
+
+/* --- Custom Components & Utility Classes --- */
+@utility glass {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@utility glass-strong {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@utility gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, var(--color-primary-400), var(--color-primary-300), var(--color-accent-400));
+}
+
+@utility section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@utility card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.1), 0 4px 6px -4px rgba(59, 130, 246, 0.1);
+  }
+}
+
+@utility btn-primary {
+  display: inline-flex;
+  items-center: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-image: linear-gradient(to right, var(--color-primary-600), var(--color-primary-500));
+  transition: all 0.3s;
+  &:hover {
+    background-image: linear-gradient(to right, var(--color-primary-500), var(--color-primary-400));
+    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.25);
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+@utility btn-outline {
+  display: inline-flex;
+  items-center: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  border: 1px solid rgba(59, 130, 246, 0.5);
+  color: var(--color-primary-400);
+  transition: all 0.3s;
+  &:hover {
+    background-color: rgba(59, 130, 246, 0.1);
+    border-color: var(--color-primary-400);
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+@utility btn-accent {
+  display: inline-flex;
+  items-center: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-image: linear-gradient(to right, var(--color-accent-600), var(--color-accent-500));
+  transition: all 0.3s;
+  &:hover {
+    background-image: linear-gradient(to right, var(--color-accent-500), var(--color-accent-400));
+    box-shadow: 0 10px 15px -3px rgba(219, 39, 119, 0.25);
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
