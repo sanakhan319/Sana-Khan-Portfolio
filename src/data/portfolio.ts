@@ -213,7 +213,7 @@ export const projects: Project[] = [
     ],
   
 
-    image: '/images/weather App.png',
+    image: '/images/weather app.avif',
     
     GitHub: 'https://GitHub.com/sana/weather-app',
     liveDemo: 'https://sanakhan319.github.io/Weather-App/',
