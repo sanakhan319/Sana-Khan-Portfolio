@@ -1,3 +1,7 @@
+
+
+
+
 import {
   Code2,
   Database,
@@ -145,8 +149,7 @@ export const projects: Project[] = [
 
   
 
-  image:
-    'src/assets/images/woodline image.png',
+  image: '/images/woodline image.png',
 
   GitHub: 'https://github.com/sana/woodline-ecommerce',
 
@@ -185,8 +188,8 @@ export const projects: Project[] = [
 
   
 
-  image:
-    'src/assets/images/Green Garden.png',
+  image: '/images/Green Garden.png',
+
 
   GitHub: 'https://github.com/sana/green-garden',
 
@@ -209,8 +212,9 @@ export const projects: Project[] = [
       'Responsive Design',
     ],
   
-    image:
-      'src/assets/images/Weather App.png',
+
+    image: '/images/Weather App.png',
+    
     GitHub: 'https://GitHub.com/sana/weather-app',
     liveDemo: 'https://sanakhan319.github.io/Weather-App/',
   },
@@ -233,8 +237,10 @@ export const projects: Project[] = [
             'Clean & Minimal Design'
     ],
    
-    image:
-      'src/assets/images/Counter App 2.png',
+ 
+    image: '/images/Counter App 2.png',
+    
+   
     GitHub: 'https://GitHub.com/sana/counter-app',
     liveDemo: 'https://counter-demo.vercel.app',
   },
@@ -255,8 +261,8 @@ export const projects: Project[] = [
       'Fast Performance',
     ],
    
-    image:
-      'src/assets/images/Portfolio.png',
+    image: '/images/Portfolio.png',
+    
     GitHub: 'https://GitHub.com/sana/portfolio',
     liveDemo: 'https://sana-portfolio.vercel.app',
   },
@@ -277,9 +283,10 @@ export const projects: Project[] = [
       'Deadline Tracking',
       'Activity Logging',
     ],
+
+    image: '/images/Task Manager.png',
    
-    image:
-      'src/assets/images/Task Manager.png',
+  
     GitHub: 'https://GitHub.com/sana/task-manager',
     liveDemo: 'https://taskmanager-demo.vercel.app',
   },
