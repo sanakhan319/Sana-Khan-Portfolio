@@ -213,32 +213,29 @@ export const projects: Project[] = [
     ],
   
 
-    image: '/images/Weather App.png',
+    image: '/images/weather App.png',
     
     GitHub: 'https://GitHub.com/sana/weather-app',
     liveDemo: 'https://sanakhan319.github.io/Weather-App/',
   },
   {
     id: 3,
-    title: 'Counter App',
+   title: 'Real-Time Chat Application',
     description:
-      'An interactive counter application built with HTML, CSS, and JavaScript featuring increment, decrement, and reset functionality.',
+      'A dynamic instant messaging application with real-time communication, chat rooms, and live user status.',
     longDescription:
-      'The Counter App is a simple yet interactive JavaScript project designed to demonstrate DOM manipulation and event handling. Users can increase, decrease, and reset the counter with a single click. The application updates the counter value dynamically without refreshing the page and includes a clean, responsive interface for a smooth user experience.',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+      'A full-featured real-time chat application designed for seamless instant messaging. It utilizes WebSockets (Socket.io) for instantaneous message delivery without page reloads. Features include private and group chat rooms, real-time typing indicators, user online/offline status, message history persistence, and a modern, responsive chat interface.',
+    technologies: ['React.js', 'Node.js', 'Express.js', 'Socket.io', 'MongoDB'],
     features: [
-     'Increment Counter',
-      'Decrement Counter',
-       'Reset Counter',
-        'Real-Time Value Updates',
-         'DOM Manipulation',
-          'Event Handling',
-           'Responsive User Interface',
-            'Clean & Minimal Design'
+      'Instant Real-Time Messaging',
+      'Private & Group Chat Rooms',
+      'Live Typing Indicators',
+      'User Online/Offline Status',
+      'Message History Persistence',
+      'Secure User Authentication',
+      'Responsive & Clean Chat UI',
     ],
-   
- 
-    image: '/images/Counter App 2.png',
+    image: '/images/chat app.jpeg',
     
    
     GitHub: 'https://GitHub.com/sana/counter-app',
